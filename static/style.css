@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+:is(.navbar, .flex){
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.flex{
+    /* TODO */
+    background-image: url('comp.svg');
+    border: 1px solid red;
+    bottom: 10px;
+    left: 45%;
+    height: 100vh;
+}
+
+.land-page{
+    display: block;
+    padding: 15px;
+    margin-bottom: -200px;
+}
+
+.welcome-text{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.get-btn{
+    margin-top: 10px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    border-radius: 30px;
+    width: fit-content;
+    font-weight: bold;
+}
