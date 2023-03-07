@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+.loc-icon{
+    margin-top: 50px;
+}
+
+.choose{
+    color: grey;
+}
+
+:is(.loc-icon,.signup-class, .signup-btns){
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.signup-class{
+    /* transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%; */
+    margin-top: 200px;
+}
+
+:is(.radio-btns, .text){
+    display: block;
+}
+
+.radio-btns{
+    width: 20%;
+
+}
+
+.rads{
+    display: flex;
+    font-size: 20px;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.label{
+    margin-left: 5px;
+}
+
+/* .radio-btns{
+
+} */
